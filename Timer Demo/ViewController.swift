@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var timer: Timer!
+    var counter = 0.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +24,18 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonPressed(_ sender: Any) {
+        
+        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(update), userInfo: nil, repeats: true)
+        
+    }
+    
+    @objc func update() {
+        counter += 0.1
+        print(counter)
+    }
+    
+    
+    
 }
 
