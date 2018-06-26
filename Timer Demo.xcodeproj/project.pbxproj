@@ -12,6 +12,10 @@
 		AFD96C2D20E20F3F0035278A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD96C2B20E20F3F0035278A /* Main.storyboard */; };
 		AFD96C2F20E20F400035278A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD96C2E20E20F400035278A /* Assets.xcassets */; };
 		AFD96C3220E20F400035278A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD96C3020E20F400035278A /* LaunchScreen.storyboard */; };
+		AFD96C3C20E213020035278A /* Untitled 3.002.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AFD96C3920E213020035278A /* Untitled 3.002.jpeg */; };
+		AFD96C3D20E213020035278A /* Untitled 3.001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AFD96C3A20E213020035278A /* Untitled 3.001.jpeg */; };
+		AFD96C3E20E213020035278A /* Untitled 3.003.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AFD96C3B20E213020035278A /* Untitled 3.003.jpeg */; };
+		AFD96C4020E213C70035278A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD96C3F20E213C70035278A /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AFD96C2E20E20F400035278A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFD96C3120E20F400035278A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFD96C3320E20F400035278A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD96C3920E213020035278A /* Untitled 3.002.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Untitled 3.002.jpeg"; sourceTree = "<group>"; };
+		AFD96C3A20E213020035278A /* Untitled 3.001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Untitled 3.001.jpeg"; sourceTree = "<group>"; };
+		AFD96C3B20E213020035278A /* Untitled 3.003.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Untitled 3.003.jpeg"; sourceTree = "<group>"; };
+		AFD96C3F20E213C70035278A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 				AFD96C2720E20F3F0035278A /* AppDelegate.swift */,
 				AFD96C2920E20F3F0035278A /* ViewController.swift */,
 				AFD96C2B20E20F3F0035278A /* Main.storyboard */,
+				AFD96C3F20E213C70035278A /* MainViewController.swift */,
 				AFD96C2E20E20F400035278A /* Assets.xcassets */,
 				AFD96C3020E20F400035278A /* LaunchScreen.storyboard */,
 				AFD96C3320E20F400035278A /* Info.plist */,
+				AFD96C3A20E213020035278A /* Untitled 3.001.jpeg */,
+				AFD96C3920E213020035278A /* Untitled 3.002.jpeg */,
+				AFD96C3B20E213020035278A /* Untitled 3.003.jpeg */,
 			);
 			path = "Timer Demo";
 			sourceTree = "<group>";
@@ -123,8 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD96C3220E20F400035278A /* LaunchScreen.storyboard in Resources */,
+				AFD96C3D20E213020035278A /* Untitled 3.001.jpeg in Resources */,
+				AFD96C3E20E213020035278A /* Untitled 3.003.jpeg in Resources */,
 				AFD96C2F20E20F400035278A /* Assets.xcassets in Resources */,
 				AFD96C2D20E20F3F0035278A /* Main.storyboard in Resources */,
+				AFD96C3C20E213020035278A /* Untitled 3.002.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD96C4020E213C70035278A /* MainViewController.swift in Sources */,
 				AFD96C2A20E20F3F0035278A /* ViewController.swift in Sources */,
 				AFD96C2820E20F3F0035278A /* AppDelegate.swift in Sources */,
 			);
