@@ -26,7 +26,13 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: Any) {
         
-        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(update), userInfo: nil, repeats: true)
+        //timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(update), userInfo: nil, repeats: true)
+        
+        timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true,
+                                     block: {(timer: Timer) in
+                                        
+                                        self.update()
+        })
         
     }
     
