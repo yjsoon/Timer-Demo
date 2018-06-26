@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="1Mq-IA-WTC">
             <objects>
-                <viewController id="vrD-oK-MBb" sceneMemberID="viewController">
+                <viewController id="vrD-oK-MBb" customClass="MainViewController" customModule="Timer_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TRH-gK-MZF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,7 +61,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Exit"/>
                                 <connections>
-                                    <segue destination="Vez-0l-UzY" kind="unwind" unwindAction="unwindToMainWithSegue:" id="9tj-ZL-LGq"/>
+                                    <segue destination="Vez-0l-UzY" kind="unwind" unwindAction="unwindToMainWithSegue:" id="57J-fG-Zif"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -122,7 +122,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Exit"/>
                                 <connections>
-                                    <segue destination="imv-uq-h1p" kind="unwind" unwindAction="unwindToMainWithSegue:" id="fpb-YP-CWK"/>
+                                    <segue destination="imv-uq-h1p" kind="unwind" unwindAction="unwindToMainWithSegue:" id="ghn-K1-fma"/>
                                 </connections>
                             </button>
                         </subviews>
